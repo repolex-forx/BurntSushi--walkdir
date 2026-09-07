@@ -1,0 +1,7 @@
+[2026-09-07T04:23:04Z] === AST ITERATION 1 START | repo=BurntSushi/walkdir sha=4f26be4d ===
+[2026-09-07T04:23:04Z] [iter=1] PHASE START: ast repo=BurntSushi/walkdir sha=4f26be4d
+[2026-09-07T04:23:04Z] [iter=1] Building AST aggregate chunks
+[2026-09-07T04:23:14Z] [iter=1] AST chunks built count=1 triples=124856
+[2026-09-07T04:23:14Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/4f26be4d450910916ea11533b2efc52b9a6483bc/.complete
+[2026-09-07T04:23:14Z] [iter=1] PHASE END: ast elapsed_s=10 elapsed_min=0.2
+[2026-09-07T04:23:14Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
