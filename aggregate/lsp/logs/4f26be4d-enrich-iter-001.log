@@ -1,0 +1,17 @@
+[2026-09-07T04:24:25Z] === ENRICH ITERATION 1 START | repo=BurntSushi/walkdir sha=4f26be4d ===
+[2026-09-07T04:24:25Z] [iter=1] PHASE START: enrich repo=BurntSushi/walkdir sha=4f26be4d runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/4f26be4d-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/4f26be4d450910916ea11533b2efc52b9a6483bc.nq.gz
+[2026-09-07T04:24:28Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-07T04:24:30Z] [iter=1] AST store loaded triples=124856 load_secs=2 mem_mb=262 MB
+[2026-09-07T04:24:30Z] [iter=1] Step 2: Finding LSP targets mem_mb=262 MB
+[2026-09-07T04:24:30Z] [iter=1] LSP targets found call_sites=1146 imports=0 extends=0 implements=5 secs=0
+[2026-09-07T04:24:30Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=262 MB
+[2026-09-07T04:24:31Z] [iter=1] Position index built positions=8762 nodes_with_types=10339 secs=0 mem_mb=262 MB
+[2026-09-07T04:24:31Z] [iter=1] Step 3: Starting LSP resolution mem_mb=262 MB already_completed_types=[] already_completed_files=0
+[2026-09-07T04:24:31Z] [iter=1] Resolving target type target_type=call_site count=1146
+[2026-09-07T04:25:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=1 resolved=247 errors=400 current=walkdir-list/main.rs
+[2026-09-07T04:25:16Z] [iter=1] Target type resolved target_type=call_site resolved=534 errors=505 secs=46 mem_mb=262 MB
+[2026-09-07T04:25:16Z] [iter=1] Resolving target type target_type=implements_clause count=5
+[2026-09-07T04:25:22Z] [iter=1] Target type resolved target_type=implements_clause resolved=5 errors=0 secs=6 mem_mb=262 MB
+[2026-09-07T04:25:29Z] [iter=1] Step 5: Writing final enrichment file triples=8459
+[2026-09-07T04:25:29Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/4f26be4d450910916ea11533b2efc52b9a6483bc.nq.gz size_kb=133
+[2026-09-07T04:25:29Z] [iter=1] PHASE END: enrich elapsed_s=65 elapsed_min=1.1 total_triples=8459
