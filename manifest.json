@@ -1,0 +1,39 @@
+{
+  "manifest_version": "1.0",
+  "org": "BurntSushi",
+  "repo": "walkdir",
+  "versions": [
+    {
+      "commit": "4f26be4d450910916ea11533b2efc52b9a6483bc",
+      "parsed_at": "2026-09-07T04:22:22.932057+00:00",
+      "tag": "2.5.0",
+      "filetree": "filetree/4f26be4d450910916ea11533b2efc52b9a6483bc.nq.gz",
+      "blobs": [
+        "blob/aa37a218b97e5f6ad37a74a62b50727279a5e460.nq.gz",
+        "blob/adf54f7393902e1fb3373bee3c74967e52742192.nq.gz",
+        "blob/14bd4a9d26a4a141b197ac6338b933ff25933556.nq.gz",
+        "blob/e415b91824d626f42ac8130e0d3ccf531882f1b7.nq.gz",
+        "blob/5b7f7fbe8ed7164b9eced2ba74bbb3470ffad282.nq.gz",
+        "blob/3b0a5dc09c1e16357459ddc9182a50f360f3cdba.nq.gz",
+        "blob/12621cfb52d615f7131ab24792549dc61ea2fdd9.nq.gz",
+        "blob/b9fcad8bf2d7574efb9d269467139ae02c0a233c.nq.gz",
+        "blob/303d323e246e39d8682a13851975821c468e627f.nq.gz",
+        "blob/e9df650eec8ecb0a01525ba17f5ad30dedeeefc6.nq.gz",
+        "blob/d63756d285dd799ac5668ae3c0ff3490724a9916.nq.gz",
+        "blob/7d36e2fdf4082e6c1147712907bd3e50c760f649.nq.gz",
+        "blob/4b96df4be589e759fb54ed1c7c0e099c210511f8.nq.gz",
+        "blob/ebf952dfc55313eeb38da056ce0f8d45b10f5772.nq.gz",
+        "blob/f4e9c06f447a062fec9b837dabe1fe4f91647c30.nq.gz",
+        "blob/68a49daad8ff7e35068f2b7a97d643aab440eaec.nq.gz",
+        "blob/fdf06f555e345da2445d82034891dffa786f0178.nq.gz",
+        "blob/3342d9b75620fe1f0ae7f529f7155771570bae06.nq.gz",
+        "blob/bb9c20a094e41b7632d63bcff20c0b4b95e80777.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
